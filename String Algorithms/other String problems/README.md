@@ -1,3 +1,29 @@
+# String Algorithms
+
+This folder contains implementations of classic and advanced string algorithm problems from Codeforces and similar platforms. Each solution demonstrates important techniques such as dynamic programming, hashing, palindrome computations, and recursive string equivalence checks.
+
+#Topics Covered
+
+- Dynamic Programming on strings
+- Palindrome detection and counting
+- String hashing with polynomial rolling hash
+- Recursive string equivalence
+- Bracket sequence analysis
+- Pattern searching and substring checks
+
+ ### Problem Summaries
+  
+  | File           | Codeforces Problem | Idea |
+  |----------------|---------------------|------|
+  | `Bacterial Melee.cpp`    | [759D](https://codeforces.com/contest/759/problem/D) |
+  | `Equivalent Strings.cpp`     | [559B](https://codeforces.com/problemset/problem/559/B) |
+  | `Longest Regular Bracket Sequence.cpp`      | [5C](https://codeforces.com/problemset/problem/5/C) |
+  | `Palindrome Degree.cpp`    | [7D](https://codeforces.com/problemset/problem/7/D) |
+  | `Queries for Number of Palindromes.cpp`     | [245H](https://codeforces.com/problemset/problem/245/H) |
+  | `Two Substrings.cpp`      | [550A](https://codeforces.com/problemset/problem/550/A) |
+
+---
+
 # Bacterial Melee.cpp
 
 Counts the number of "good" subsequences in a given string, where no character repeats consecutively. Dynamic Programming is used to track valid subsequences of each length ending in a specific character. Combinatorics (nCr) is used to account for permutations across the full string length.
