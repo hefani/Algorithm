@@ -15,7 +15,7 @@ This folder contains implementations of classic and advanced string algorithm pr
   
   | File           | Codeforces Problem | Idea |
   |----------------|---------------------|------|
-  | `Bacterial Melee.cpp`    | [759D](https://codeforces.com/contest/759/problem/D) |
+  | `Bacterial Melee.cpp`    | [759D](https://codeforces.com/contest/759/problem/D) | For every unique subsequence, calculate its total “weight” using combinatorics (number of ways to select positions for letters) |
   | `Equivalent Strings.cpp`     | [559B](https://codeforces.com/problemset/problem/559/B) |
   | `Longest Regular Bracket Sequence.cpp`      | [5C](https://codeforces.com/problemset/problem/5/C) |
   | `Palindrome Degree.cpp`    | [7D](https://codeforces.com/problemset/problem/7/D) |
@@ -99,4 +99,6 @@ Techniques Used:
 - substring matching
 
 Interesting Detail: Handles overlapping edge cases by skipping ahead after a match.
+
+
 
