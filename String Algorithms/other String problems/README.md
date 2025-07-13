@@ -16,11 +16,11 @@ This folder contains implementations of classic and advanced string algorithm pr
   | File           | Codeforces Problem | Idea |
   |----------------|---------------------|------|
   | `Bacterial Melee.cpp`    | [759D](https://codeforces.com/contest/759/problem/D) | For every unique subsequence, calculate its total “weight” using combinatorics (number of ways to select positions for letters) |
-  | `Equivalent Strings.cpp`     | [559B](https://codeforces.com/problemset/problem/559/B) |
-  | `Longest Regular Bracket Sequence.cpp`      | [5C](https://codeforces.com/problemset/problem/5/C) |
-  | `Palindrome Degree.cpp`    | [7D](https://codeforces.com/problemset/problem/7/D) |
-  | `Queries for Number of Palindromes.cpp`     | [245H](https://codeforces.com/problemset/problem/245/H) |
-  | `Two Substrings.cpp`      | [550A](https://codeforces.com/problemset/problem/550/A) |
+  | `Equivalent Strings.cpp`     | [559B](https://codeforces.com/problemset/problem/559/B) | The idea is to recursively sort each half and compare the normalized form |
+  | `Longest Regular Bracket Sequence.cpp`      | [5C](https://codeforces.com/problemset/problem/5/C) | Given a string with brackets, find the length of the longest valid (well-formed) bracket substring and how many times such a substring occurs |
+  | `Palindrome Degree.cpp`    | [7D](https://codeforces.com/problemset/problem/7/D) | Compute total degree of all prefixes using recursive definition. Use rolling hash for palindrome check and DP for efficiency |
+  | `Queries for Number of Palindromes.cpp`     | [245H](https://codeforces.com/problemset/problem/245/H) | Given a string and multiple queries [l,r], count how many substrings in that range are palindromes. Preprocess all palindrome substrings for fast query answers |
+  | `Two Substrings.cpp`      | [550A](https://codeforces.com/problemset/problem/550/A) | Determine whether the string contains both “AB” and “BA” non-overlapping. Try both orders (AB first, then BA, and vice versa), checking for non-intersection |
 
 ---
 
