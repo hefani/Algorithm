@@ -100,5 +100,16 @@ Techniques Used:
 
 Interesting Detail: Handles overlapping edge cases by skipping ahead after a match.
 
+---
+
+# Notes
+
+Bacterial Melee is a classic DP problem enhanced with combinatorial computations and modular arithmetic to efficiently count weighted subsequences.
+Equivalent Strings uses a neat recursive approach to test string equivalence under a specific operation, illustrating divide-and-conquer on strings.
+Longest Regular Bracket Sequence involves prefix sums and a stack-based method to quickly find longest valid parentheses substrings.
+Palindrome Degree utilizes polynomial rolling hash functions to quickly verify palindromes and accumulates their “degree” values with DP.
+Queries for Number of Palindromes efficiently answers multiple palindrome count queries using DP preprocessing.
+Two Substrings involves simple but careful scanning to detect required non-overlapping patterns in a string.
+
 
 
