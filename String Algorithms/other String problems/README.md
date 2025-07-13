@@ -2,6 +2,8 @@
 
 Counts the number of "good" subsequences in a given string, where no character repeats consecutively. Dynamic Programming is used to track valid subsequences of each length ending in a specific character. Combinatorics (nCr) is used to account for permutations across the full string length.
 
+Uses a double DP approach: tracking possible subsequences by length and character, then summing over permutations using precomputed modular inverses for nCr combinations. This design avoids brute-force substring checking.
+
 Techniques Used:
 - DP on character sequences
 - combinatorics
@@ -51,6 +53,8 @@ Interesting Detail: Avoids naive substring checks using base-101 hashing and rev
 # Queries for Number of Palindromes.cpp
 
 Preprocesses all palindromic substrings in a string and efficiently answers multiple queries asking how many palindromes exist in a substring. Uses a 2D DP table to cache counts and a separate check table for identifying palindromes.
+
+Combines a palindrome validity table with a prefix-style DP table for fast range query resolution. This dual-table setup allows answering up to 10⁵ queries in optimal time after O(n²) preprocessing.
 
 Techniques Used:
 - Palindrome DP
