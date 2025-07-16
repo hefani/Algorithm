@@ -39,7 +39,7 @@ These problems demonstrate the application of sorting in diverse algorithmic con
 |--------|------|
 | [CF 20C - Dijkstra?](https://codeforces.com/problemset/problem/20/C) | Graphs, Shortest Paths, Dijkstra's Algorithm, Path Reconstruction, Greedy |
 | [CF 144D - Missile Silos](https://codeforces.com/problemset/problem/144/D) | Graphs, Dijkstra's Algorithm, Shortest Paths, Edge Case Handling, Exact Distance Count |
-| [CF 1349C - Orac and Game of Life]([https://codeforces.com/problemset/problem/863/E](https://codeforces.com/problemset/problem/1349/C)) | Graphs, BFS, Multi_source BFS, Grid simulation, 2D Grids |
+| [CF 1349C - Orac and Game of Life](https://codeforces.com/problemset/problem/1349/C) | Graphs, BFS, Multi_source BFS, Grid simulation, 2D Grids |
 
 ---
 
