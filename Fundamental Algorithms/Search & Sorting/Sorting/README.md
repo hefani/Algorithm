@@ -13,8 +13,6 @@ This directory contains both classic and advanced sorting techniques with applie
 | Quick Sort      | O(n log n) avg.  | In-place and fast, but unstable |
 | Heap Sort       | O(n log n)       | Priority-queue based, rare in contests |
 
-> **Note:** Heap sort is not frequently seen in competitive programming problems, but has been implemented here for completeness.
-
 ---
 
 ## Example Problems (from Codeforces)
